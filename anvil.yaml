@@ -17,3 +17,8 @@ db_schema:
       admin_ui: {width: 200, order: 0}
       type: string
     title: users
+  editempyoee:
+    title: EditEmpyoee
+    client: full
+    server: full
+    columns: []
