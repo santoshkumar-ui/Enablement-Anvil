@@ -4,10 +4,64 @@ container:
   properties: {html: '@theme:standard-page.html'}
 components:
 - type: ColumnPanel
-  properties: {}
+  properties: {col_widths: '{}'}
   name: content_panel
   layout_properties: {slot: default}
+  components:
+  - type: TextBox
+    properties: {role: null, bold: false, align: left, placeholder: '', spacing_above: small, background: '', type: text, underline: false, font: '', hide_text: false, foreground: '', spacing_below: small, visible: true, border: '', italic: false, enabled: true, font_size: null, tooltip: '', text: 'Name:'}
+    name: text_box_1
+    layout_properties: {grid_position: 'NMXHWV,XZYOPC'}
+  - type: TextArea
+    properties: {}
+    name: Name
+    layout_properties: {grid_position: 'NMXHWV,HGMNVR'}
+  - type: TextBox
+    properties: {role: null, bold: false, align: left, placeholder: '', spacing_above: small, background: '', type: text, underline: false, font: '', hide_text: false, foreground: '', spacing_below: small, visible: true, border: '', italic: false, enabled: true, font_size: null, tooltip: '', text: 'Email:'}
+    name: text_box_2
+    layout_properties: {grid_position: 'YUNTHI,BRJIXM'}
+  - type: TextArea
+    properties: {}
+    name: Email
+    layout_properties: {grid_position: 'YUNTHI,PCRYMN'}
+  - type: TextBox
+    properties: {role: null, bold: false, align: left, placeholder: '', spacing_above: small, background: '', type: text, underline: false, font: '', hide_text: false, foreground: '', spacing_below: small, visible: true, border: '', italic: false, enabled: true, font_size: null, tooltip: '', text: 'Phone Number:'}
+    name: text_box_3
+    layout_properties: {grid_position: 'VDUJRH,JHFUYH'}
+  - type: TextArea
+    properties: {}
+    name: Phone_Number
+    layout_properties: {grid_position: 'VDUJRH,AJLILN'}
+  - type: TextBox
+    properties: {role: null, bold: false, align: left, placeholder: '', spacing_above: small, background: '', type: text, underline: false, font: '', hide_text: false, foreground: '', spacing_below: small, visible: true, border: '', italic: false, enabled: true, font_size: null, tooltip: '', text: 'Password:'}
+    name: text_box_4
+    layout_properties: {grid_position: 'NCEYMK,SHHPTD'}
+  - type: TextArea
+    properties: {}
+    name: Password
+    layout_properties: {grid_position: 'NCEYMK,QBYSWB'}
+  - type: TextBox
+    properties: {role: null, bold: false, align: left, placeholder: '', spacing_above: small, background: '', type: text, underline: false, font: '', hide_text: false, foreground: '', spacing_below: small, visible: true, border: '', italic: false, enabled: true, font_size: null, tooltip: '', text: ReEnter Password}
+    name: text_box_5
+    layout_properties: {grid_position: 'PEKEWR,WPNCVE'}
+  - type: TextArea
+    properties: {}
+    name: Reenter_Password
+    layout_properties: {grid_position: 'PEKEWR,MFKNRE'}
+  - type: Button
+    properties: {role: primary-color, bold: false, align: center, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: '', spacing_below: small, visible: true, border: '', italic: false, enabled: true, font_size: null, tooltip: '', text: EDIT DETAILS}
+    name: button_1
+    layout_properties: {grid_position: 'AXKEOS,INNQAL'}
+    event_bindings: {click: button_1_click}
+  - type: RepeatingPanel
+    properties: {item_template: Admin.ManageUsers.ManageEmployee.editemployee.ItemTemplate1}
+    name: repeating_panel_1
+    layout_properties: {grid_position: 'AUUETY,FNCADY'}
 - type: FlowPanel
   properties: {}
   name: navbar_links
   layout_properties: {slot: nav-right}
+- type: Label
+  properties: {role: null, bold: false, align: center, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: '', spacing_below: small, visible: true, border: '', italic: false, font_size: 25, tooltip: '', text: Employee}
+  name: label_1
+  layout_properties: {slot: title}
