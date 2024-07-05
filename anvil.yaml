@@ -1,9 +1,19 @@
 allow_embedding: false
 package_name: Finchain_Enablement
 name: Finchain Enablement
-startup_form: Form1
+startup_form: null
 runtime_options: {version: 2, client_version: '3', server_version: python3-full, server_spec: null}
 services:
 - source: /runtime/services/tables.yml
   client_config: {}
   server_config: {}
+startup: {type: form, module: Admin}
+db_schema:
+  users:
+    client: none
+    server: full
+    columns:
+    - name: Name
+      admin_ui: {width: 200, order: 0}
+      type: string
+    title: users
