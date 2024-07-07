@@ -60,7 +60,7 @@ components:
   - type: RepeatingPanel
     properties: {item_template: Admin.ManageUsers.ManageEmployee.editemployee.ItemTemplate1}
     name: repeating_panel_1
-    layout_properties: {grid_position: 'AUUETY,FNCADY'}
+    layout_properties: {grid_position: 'WLQDKX,YFDCBI'}
 - type: FlowPanel
   properties: {}
   name: navbar_links
