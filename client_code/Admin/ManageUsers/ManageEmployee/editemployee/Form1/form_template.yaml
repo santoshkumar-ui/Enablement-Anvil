@@ -37,7 +37,7 @@ components:
     type: TextBox
     layout_properties: {grid_position: 'CTLFZC,BMIHFL'}
   - name: primary_color_1
-    properties: {text: primary_color_, role: primary-color}
+    properties: {text: edit, role: primary-color}
     type: Button
     layout_properties: {grid_position: 'CTLFZC,BMIHFL HOACVH,CGUMKX'}
   - name: Password
@@ -45,7 +45,7 @@ components:
     type: TextArea
     layout_properties: {grid_position: 'CTLFZC,YSKFDD KLUFEW,ZQDXHX'}
   - name: primary_color_2
-    properties: {text: primary_color_2, role: primary-color}
+    properties: {text: delete, role: primary-color}
     type: Button
     layout_properties: {grid_position: 'CTLFZC,YSKFDD BDOESW,UVLOHS'}
   - name: repeating_panel_1
