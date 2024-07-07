@@ -9,6 +9,10 @@ components:
   layout_properties: {slot: default}
   components:
   - type: TextBox
+    properties: {role: null, bold: false, align: left, placeholder: '', spacing_above: small, background: '', type: text, underline: false, font: '', hide_text: false, foreground: '', spacing_below: small, visible: true, border: '', italic: false, enabled: true, font_size: null, tooltip: '', text: 'Search:'}
+    name: text_box_6
+    layout_properties: {grid_position: 'DDUOWO,QFIKSN'}
+  - type: TextBox
     properties: {role: null, bold: false, align: left, placeholder: '', spacing_above: small, background: '', type: text, underline: false, font: '', hide_text: false, foreground: '', spacing_below: small, visible: true, border: '', italic: false, enabled: true, font_size: null, tooltip: '', text: 'Name:'}
     name: text_box_1
     layout_properties: {grid_position: 'NMXHWV,XZYOPC'}
