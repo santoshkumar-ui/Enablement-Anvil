@@ -1,7 +1,7 @@
-# import anvil.tables as tables
-# import anvil.tables.query as q
-# from anvil.tables import app_tables
-# import anvil.server
+import anvil.tables as tables
+import anvil.tables.query as q
+from anvil.tables import app_tables
+import anvil.server
 
 # This is a server module. It runs on the Anvil server,
 # rather than in the user's browser.
@@ -14,15 +14,18 @@
 # def store_user_input(user_name, email, password):
 #     app_tables.add_row(Email=email, Name=user_name, Password=password)
 
-import anvil.server
-import anvil.tables as tables
-from anvil.tables import app_tables
+# import anvil.server
+# import anvil.tables as tables
+# from anvil.tables import app_tables
 
-@anvil.server.callable
-def get_admin_users():
-    return app_tables.admin.search(usertype='admin')
+# @anvil.server.callable
+# def get_admin_users():
+#     return app_tables.admin.search(usertype='admin')
 
 # def say_hello(name):
 #   print("Hello, " + name + "!")
 #   return 42
 #
+@anvil.server.callable
+def submit(name,email,phone,password,repassword):
+  app_tables.addemployee.add_row(name=name,email=email,phone=phone,password=password,repassword=repassword,usertype='employee')
