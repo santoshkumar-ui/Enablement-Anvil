@@ -9,16 +9,26 @@ services:
   server_config: {}
 startup: {type: form, module: Admin}
 db_schema:
-  users:
+  employee:
     client: none
     server: full
     columns:
-    - name: Name
+    - name: full_name
       admin_ui: {width: 200, order: 0}
       type: string
-    title: users
-  editempyoee:
-    title: EditEmpyoee
-    client: full
-    server: full
-    columns: []
+    - name: email_user
+      admin_ui: {width: 200, order: 1}
+      type: string
+    - name: user_number
+      admin_ui: {width: 200, order: 2}
+      type: number
+    - name: user_password
+      admin_ui: {width: 200, order: 3}
+      type: number
+    - name: reenter_password
+      admin_ui: {width: 200, order: 4}
+      type: number
+    - name: usertype
+      admin_ui: {width: 200, order: 5}
+      type: string
+    title: employee
