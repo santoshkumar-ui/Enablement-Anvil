@@ -21,6 +21,4 @@ class Form1(Form1Template):
     """This method is called when the link is clicked"""
     open_form('Admin.ManageUsers.ManageAdmin')
 
-  def name_pressed_enter(self, **event_args):
-    """This method is called when the user presses Enter in this text box"""
-    
+  
