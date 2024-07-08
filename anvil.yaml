@@ -7,28 +7,5 @@ services:
 - source: /runtime/services/tables.yml
   client_config: {}
   server_config: {}
-db_schema:
-  addemployee:
-    title: addemployee
-    client: full
-    server: full
-    columns:
-    - name: name
-      admin_ui: {width: 200}
-      type: string
-    - name: email
-      admin_ui: {width: 200}
-      type: string
-    - name: phone
-      admin_ui: {width: 200}
-      type: number
-    - name: password
-      admin_ui: {width: 200}
-      type: string
-    - name: repassword
-      admin_ui: {width: 200}
-      type: string
-    - name: usertype
-      admin_ui: {width: 200}
-      type: string
+db_schema: {}
 startup: {type: form, module: Admin.ManageUsers.ManageEmployee}
