@@ -40,6 +40,7 @@ components:
     properties: {text: edit, role: primary-color}
     type: Button
     layout_properties: {grid_position: 'CTLFZC,BMIHFL HOACVH,CGUMKX'}
+    event_bindings: {click: primary_color_1_click}
   - name: Password
     properties: {}
     type: TextArea
