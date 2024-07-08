@@ -10,7 +10,9 @@ import anvil.server
 # them with @anvil.server.callable.
 # Here is an example - you can replace it with your own:
 #
-# @anvil.server.callable
+@anvil.server.callable
+def store_user_input(user_name, email, password):
+    app_tables.add_row(Email=email, Name=user_name, Password=password)
 # def say_hello(name):
 #   print("Hello, " + name + "!")
 #   return 42
