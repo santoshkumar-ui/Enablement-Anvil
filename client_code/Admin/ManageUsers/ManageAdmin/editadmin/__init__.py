@@ -15,5 +15,5 @@ class editadmin(editadminTemplate):
 
   def button_1_click(self, **event_args):
     """This method is called when the button is clicked"""
-    anvil.server.call('store_user_input', self.name, self.email, self.password)
+    anvil.server.call('store_user_input', self.name, self.email, self.password, self.phone_number, self.reenter_password)
     
