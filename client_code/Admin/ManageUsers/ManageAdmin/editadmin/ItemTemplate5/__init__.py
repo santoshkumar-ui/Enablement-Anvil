@@ -16,7 +16,7 @@ class ItemTemplate5(ItemTemplate5Template):
 
   def button_1_click(self, **event_args):
     """This method is called when the button is clicked"""
-    open_form('Admin.ManageUsers.ManageAdmin.editadmin')
+    open_form('Admin.ManageUsers.ManageAdmin.editadmin.Form1')
 
   def button_2_click(self, **event_args):
     """This method is called when the button is clicked"""
