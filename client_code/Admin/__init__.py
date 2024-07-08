@@ -1,7 +1,6 @@
 from ._anvil_designer import AdminTemplate
-from anvil import *
+import anvil.server
 import anvil.tables as tables
-import anvil.tables.query as q
 from anvil.tables import app_tables
 
 
@@ -11,3 +10,7 @@ class Admin(AdminTemplate):
     self.init_components(**properties)
 
     # Any code you write here will run before the form opens.
+
+  @anvil.server.callable
+  def store_user_input(user_name, email, password):
+    app_tables.app_tables_adminapp_tables.app_tables_admin.add_row(Email=email, Name=user_name, Password=password)
