@@ -5,30 +5,31 @@ components:
 - type: TextBox
   properties: {}
   name: text_box_1
-  layout_properties: {grid_position: 'YIOBMY,PBELRQ'}
-  event_bindings: {pressed_enter: text_box_1_pressed_enter}
+  layout_properties: {grid_position: 'CZPCZJ,FGJTWL'}
   data_bindings:
   - {property: text, code: 'self.item[''full_name'']', writeback: true}
 - type: TextBox
   properties: {}
   name: text_box_2
-  layout_properties: {grid_position: 'YIOBMY,LMREOF'}
+  layout_properties: {grid_position: 'CZPCZJ,AASKEZ'}
+  event_bindings: {pressed_enter: text_box_2_pressed_enter}
   data_bindings:
   - {property: text, code: 'self.item[''email_user'']', writeback: true}
 - type: TextBox
-  properties: {}
+  properties: {role: null, bold: false, align: left, placeholder: '', spacing_above: small, background: '', type: number, underline: false, font: '', hide_text: false, foreground: '', spacing_below: small, visible: true, border: '', italic: false, enabled: true, font_size: null, tooltip: '', text: ''}
   name: text_box_3
-  layout_properties: {grid_position: 'YIOBMY,WKQTQK'}
+  layout_properties: {grid_position: 'CZPCZJ,VVNLSO'}
+  event_bindings: {pressed_enter: text_box_3_pressed_enter}
   data_bindings:
   - {property: text, code: 'self.item[''user_phonenumber'']', writeback: true}
 - type: Button
-  properties: {role: primary-color, bold: false, align: center, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: '', spacing_below: small, visible: true, border: '', italic: false, enabled: true, font_size: null, tooltip: '', text: save}
+  properties: {role: null, bold: false, align: center, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: '', spacing_below: small, visible: true, border: '', italic: false, enabled: true, font_size: null, tooltip: '', text: save}
   name: button_1
-  layout_properties: {grid_position: 'YIOBMY,NNZWAN'}
+  layout_properties: {grid_position: 'CZPCZJ,GEJBRO'}
   event_bindings: {click: button_1_click}
 - type: Button
-  properties: {role: primary-color, bold: false, align: center, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: '', spacing_below: small, visible: true, border: '', italic: false, enabled: true, font_size: null, tooltip: '', text: delete}
+  properties: {role: null, bold: false, align: center, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: '', spacing_below: small, visible: true, border: '', italic: false, enabled: true, font_size: null, tooltip: '', text: delete}
   name: button_2
-  layout_properties: {grid_position: 'YIOBMY,QWIPBJ'}
+  layout_properties: {grid_position: 'CZPCZJ,VHYBOD'}
   event_bindings: {click: button_2_click}
 is_package: true
