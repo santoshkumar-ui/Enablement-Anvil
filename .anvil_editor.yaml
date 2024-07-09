@@ -2,19 +2,15 @@ unique_ids:
   forms:
     Admin.ManageUsers.ManageEmployee.editemployee: '1720155198606788795906638.4767'
     Login: '172015335491557237405236.147064'
-    Admin.ManageUsers.ManageEmployee.editemployee.Form1: '1720359400298954590045001.7167'
     Admin.ManageUsers.ManageAdmin: '1720154163452637475583634.4679'
     Admin.ManageUsers.ManageEmployee.editemployee.ItemTemplate1: '1720175437947371367048062.8197'
-    Admin.ManageUsers.ManageEmployee.editemployee.Form1.ItemTemplate2: '172036013159069370568950.56682'
     Admin.ManageUsers: '1720154106346487750126870.9952'
     Employee: '1720154093639269058991111.88724'
-    Admin.ManageUsers.ManageEmployee.editemployee.ItemTemplate4: '1720425999521517184202948.01605'
     Admin.ManageUsers.ManageEmployee.addemployee: '1720155206964365020738898.7499'
     Admin.ManageUsers.ManageAdmin.addadmin: '1720155191596218886363139.87476'
     Admin.ManageUsers.ManageEmployee: '172015417917899921667820.90872'
     Admin.ManageContent: '1720154135564436368070484.5125'
     Admin.ManageUsers.ManageAdmin.editadmin: '1720155177033823830565921.5624'
-    Admin.ManageUsers.ManageEmployee.editemployee.ItemTemplate3: '1720425875689994122323729.0602'
     Admin: QLMLQVDHMWBVWY6WYDK5VAINCLUKSLWC
   modules: {}
   server_modules: {}
