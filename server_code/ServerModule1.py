@@ -25,4 +25,4 @@ import anvil.server
 
 @anvil.server.callable
 def submit(full_name ,email_user,user_phonenumber,user_password,reenter_password):
-  app_tables.addemployee.add_row(full_name=full_name, email_user = email_user, user_phonenumber=  user_phonenumber,user_password = user_password,reenter_password = reenter_password,user_type='employee')
+  app_tables.users.add_row(full_name=full_name, email_user = email_user, user_phonenumber=  user_phonenumber,user_password = user_password,reenter_password = reenter_password,user_type='employee')
