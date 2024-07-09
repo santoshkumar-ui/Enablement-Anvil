@@ -8,27 +8,4 @@ services:
   client_config: {}
   server_config: {}
 startup: {type: form, module: Admin.ManageUsers.ManageEmployee.editemployee}
-db_schema:
-  employee:
-    client: full
-    server: full
-    columns:
-    - name: full_name
-      admin_ui: {width: 200, order: 0}
-      type: string
-    - name: email_user
-      admin_ui: {width: 200, order: 1}
-      type: string
-    - name: user_number
-      admin_ui: {width: 200, order: 2}
-      type: number
-    - name: user_password
-      admin_ui: {width: 200, order: 3}
-      type: number
-    - name: reenter_password
-      admin_ui: {width: 200, order: 4}
-      type: number
-    - name: usertype
-      admin_ui: {width: 200, order: 5}
-      type: string
-    title: employee
+db_schema: {}
