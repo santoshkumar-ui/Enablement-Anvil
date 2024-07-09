@@ -14,7 +14,7 @@ services:
 db_schema:
   users:
     title: users
-    client: none
+    client: full
     server: full
     columns:
     - name: full_name

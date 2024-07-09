@@ -17,8 +17,10 @@ class Login(LoginTemplate):
     """This method is called when the button is clicked"""
     employee_users = list(app_tables.users.search())
     for user in employee_users:
-        print(f"User {user['usertype']} logged in.")
-        if user['usertype'] == "employee":
-            open_form('Login.employee')
+        # print(f"User {user['user_type']} logged in.")
+        if user['user_type'] == "admin":
+          open_form('Admin')
+        elif user['user_type']== "employee":
+          open_form('Employee')
         else:
-            open_form('Login.admin')
+          alert('invalid user')
