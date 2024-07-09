@@ -18,14 +18,8 @@ import anvil.server
 # import anvil.tables as tables
 # from anvil.tables import app_tables
 
-@anvil.server.callable
-def get_admin_users():
-    return app_tables.admin.search(usertype='admin')
+# @anvil.server.callable
+# def get_admin_users():
+#     return app_tables.admin.search(usertype='admin')
 
-# def say_hello(name):
-#   print("Hello, " + name + "!")
-#   return 42
-#
-@anvil.server.callable
-def submit(name,email,phone,password,repassword):
-  app_tables.addemployee.add_row(name=name,email=email,phone=phone,password=password,repassword=repassword,usertype='employee')
+

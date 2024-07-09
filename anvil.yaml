@@ -2,10 +2,13 @@ allow_embedding: false
 package_name: Finchain_Enablement
 name: Finchain Enablement
 startup_form: null
-runtime_options: {version: 2, client_version: '3', server_version: python3-full, server_spec: null}
+runtime_options:
+  version: 2
+  client_version: '3'
+  server_version: python3-full
+  server_spec: {base: python310-minimal}
 services:
 - source: /runtime/services/tables.yml
   client_config: {}
   server_config: {}
-db_schema: {}
-startup: {type: form, module: Admin.ManageUsers.ManageEmployee}
+
