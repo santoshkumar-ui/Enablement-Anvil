@@ -17,6 +17,21 @@ db_schema:
     client: none
     server: full
     columns:
-    - name: Name
-      admin_ui: {width: 200}
+    - name: full_name
+      admin_ui: {order: 0, width: 200}
+      type: string
+    - name: email_user
+      admin_ui: {width: 200, order: 1}
+      type: string
+    - name: user_phonenumber
+      admin_ui: {width: 200, order: 2}
+      type: number
+    - name: user_password
+      admin_ui: {width: 200, order: 3}
+      type: string
+    - name: reenter_password
+      admin_ui: {width: 200, order: 4}
+      type: string
+    - name: user_type
+      admin_ui: {width: 200, order: 5}
       type: string
