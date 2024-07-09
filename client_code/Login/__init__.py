@@ -20,19 +20,24 @@ class Login(LoginTemplate):
         
         if user:
             user_type = user['user_type']
-            # Define a mapping from user_type to form names
-            user_type_to_form = {
-                "admin": "Admin",
-                "employee": "Employee"
-            }
-            form_name = user_type_to_form.get(user_type)
-            
-            if form_name:
-                open_form(form_name,user)
+            if user_type=='admin':
+              open_form('Admin')
             else:
-                alert("Invalid user type detected.")
-        else:
-            alert("Incorrect email or password.")
+              open_form('Employee')
+          
+            # Define a mapping from user_type to form names
+        #     user_type_to_form = {
+        #         "admin": "Admin",
+        #         "employee": "Employee"
+        #     }
+        #     form_name = user_type_to_form.get(user_type)
+            
+        #     if form_name:
+        #         open_form(form_name,user)
+        #     else:
+        #         alert("Invalid user type detected.")
+        # else:
+        #     alert("Incorrect email or password.")
 
 
         
