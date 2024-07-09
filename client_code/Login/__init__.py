@@ -5,25 +5,34 @@ import anvil.tables as tables
 import anvil.tables.query as q
 from anvil.tables import app_tables
 
-
 class Login(LoginTemplate):
-  def __init__(self, **properties):
-    # Set Form properties and Data Bindings.
-    self.init_components(**properties)
+    def __init__(self, **properties):
+      
+        # Set Form properties and Data Bindings.
+        self.init_components(**properties)
+        # Any code you write here will run before the form opens.
 
-    # Any code you write here will run before the form opens.
+    def button_1_click(self, **event_args):
+      
+        """This method is called when the button is clicked"""
+        employee_users = list(app_tables.users.search())
+        
+        # Define a mapping from user_type to form names
+        user_type_to_form = {
+            "admin": "Admin",
+            "employee": "Employee"
+        }
+        
+        for user in employee_users:
+            user_type = user.get('user_type')
+            
+            # Check if the user_type is valid and open the corresponding form
+            form_name = user_type_to_form.get(user_type)
+            if form_name:
+                open_form(form_name)
+            else:
+                print("Invalid user type detected.")
 
-  def button_1_click(self, **event_args):
-    """This method is called when the button is clicked"""
-    employee_users = list(app_tables.users.search())
-    for user in employee_users:
-      user_type = user.get('user_type')
-      if user_type == "admin":
-        open_form('Admin')
-      elif user_type == "employee":
-        open_form('Employee')
-      else:
-        print("Invalid user type detected.")
         
         
     
