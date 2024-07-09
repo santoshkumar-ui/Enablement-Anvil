@@ -21,11 +21,11 @@ components:
       layout_properties: {grid_position: 'NVXDYO,EHMSJI'}
       components:
       - name: image_1
-        properties: {}
+        properties: {source: _/theme/employee-icon-png-53.png}
         type: Image
         layout_properties: {grid_position: 'XTIPWX,CJBNXI'}
       - name: image_2
-        properties: {}
+        properties: {source: _/theme/businessman_edit.png}
         type: Image
         layout_properties: {grid_position: 'XTIPWX,NMDRSW'}
       - name: button_1

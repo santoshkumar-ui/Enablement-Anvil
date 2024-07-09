@@ -10,6 +10,7 @@ class addadmin(addadminTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)
+    
 
   def link_1_click(self, **event_args):
     """This method is called when the link is clicked"""
@@ -54,3 +55,5 @@ class addadmin(addadminTemplate):
       Notification("Your Admin details have been saved!!!").show()
     except Exception as e:
       Notification(f"An error occurred: {str(e)}").show()
+      
+  

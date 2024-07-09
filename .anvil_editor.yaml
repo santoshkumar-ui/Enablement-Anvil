@@ -21,6 +21,8 @@ unique_ids:
   server_modules:
     ServerModule1: '1720421387981194628728486.7918'
   assets:
+    businessman_edit.png: '1720494775961581649579917.7534'
+    employee-icon-png-53.png: '1720494763112191996980280.39557'
     standard-page.html: 4UMB2CD4YPF7QMYKBFK4W2EJP2JGQNE7
     theme.css: 463IF6OUD7L3AFUDID4IRH4JZDZ6WLUK
   scripts: {}

@@ -28,11 +28,11 @@ components:
     layout_properties: {grid_position: 'QURUMM,ASWIRU'}
     components:
     - name: image_1
-      properties: {source: _/theme/anvil admin image.jpeg}
+      properties: {source: _/theme/employee-icon-png-53.png}
       type: Image
       layout_properties: {grid_position: 'TCVARP,UUAVQP'}
     - name: image_2
-      properties: {}
+      properties: {source: _/theme/businessman_edit.png}
       type: Image
       layout_properties: {grid_position: 'TCVARP,LFNIVJ'}
     - name: add_admin_button
