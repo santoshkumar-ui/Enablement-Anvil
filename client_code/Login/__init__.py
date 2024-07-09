@@ -12,3 +12,13 @@ class Login(LoginTemplate):
     self.init_components(**properties)
 
     # Any code you write here will run before the form opens.
+
+  def button_1_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    employee_users = list(app_tables.users.search())
+    for user in employee_users:
+        print(f"User {user['usertype']} logged in.")
+        if user['usertype'] == "employee":
+            open_form('Login.employee')
+        else:
+            open_form('Login.admin')
