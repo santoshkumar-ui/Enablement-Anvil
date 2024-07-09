@@ -28,7 +28,7 @@ class Login(LoginTemplate):
             form_name = user_type_to_form.get(user_type)
             
             if form_name:
-                open_form(form_name)
+                open_form(form_name,user)
             else:
                 alert("Invalid user type detected.")
         else:
