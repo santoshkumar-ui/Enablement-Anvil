@@ -7,6 +7,8 @@ unique_ids:
     Admin.ManageUsers.ManageAdmin.addadmin.ItemTemplate1: '1720174116231658363051028.3478'
     Admin.ManageUsers.ManageAdmin.editadmin.ItemTemplate4: '1720427539296731598050863.6599'
     Admin.ManageUsers.ManageAdmin: '1720154163452637475583634.4679'
+    Admin.ManageUsers.ManageEmployee.editemployee.ItemTemplate1: 7W3EYIYCRKTM7UUY6BWHZ25PTNANAXMW
+    Admin.ManageUsers.ManageAdmin.editadmin.ItemTemplate3: EOXZJUNSAMT5DAAC7WZ24RKDS5ASVTYR
     Admin.ManageUsers: '1720154106346487750126870.9952'
     Admin.ManageUsers.ManageAdmin.editadmin.Form1: '1720425768959388573468832.4738'
     Employee: '1720154093639269058991111.88724'
