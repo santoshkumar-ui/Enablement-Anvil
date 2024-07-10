@@ -1,6 +1,9 @@
 from ._anvil_designer import editemployeeTemplate
 from anvil import *
 import anvil.server
+import anvil.tables as tables
+import anvil.tables.query as q
+from anvil.tables import app_tables
 
 
 class editemployee(editemployeeTemplate):
@@ -16,3 +19,5 @@ class editemployee(editemployeeTemplate):
   def link_1_click(self, **event_args):
     """This method is called when the link is clicked"""
     open_form('Admin.ManageUsers.ManageEmployee.editemployee')
+
+
