@@ -30,10 +30,11 @@ components:
     properties: {role: primary-color, bold: false, align: center, spacing_above: small, background: '', icon: 'fa:user', underline: false, font: '', icon_align: left, foreground: '', spacing_below: small, visible: true, border: '', italic: false, enabled: true, font_size: null, tooltip: '', text: view profile}
     name: button_2
     layout_properties: {}
-  - type: Link
-    properties: {role: null, bold: false, align: left, col_widths: '', spacing_above: small, background: '', icon: 'fa:arrow-circle-left', wrap_on: mobile, underline: false, font: '', col_spacing: medium, icon_align: left, foreground: '', url: '', spacing_below: small, visible: true, border: '', italic: false, font_size: null, tooltip: '', text: Logout}
-    name: link_1
+  - type: Button
+    properties: {role: secondary-color, bold: false, align: center, spacing_above: small, background: '', icon: 'fa:arrow-circle-left', underline: false, font: '', icon_align: left, foreground: '', spacing_below: small, visible: true, border: '', italic: false, enabled: true, font_size: null, tooltip: '', text: logout}
+    name: button_3
     layout_properties: {}
+    event_bindings: {click: button_3_click}
 - type: Label
   properties: {role: null, bold: false, align: left, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: '', spacing_below: small, visible: true, border: '', italic: false, font_size: null, tooltip: '', text: Employee Dashboard}
   name: label_1

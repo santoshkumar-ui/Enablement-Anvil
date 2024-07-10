@@ -9,3 +9,9 @@ class Employee(EmployeeTemplate):
     self.init_components(**properties)
 
     # Any code you write here will run before the form opens.
+
+  def button_3_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    anvil.server.call('logout_user')
+    
+    open_form('Login')
