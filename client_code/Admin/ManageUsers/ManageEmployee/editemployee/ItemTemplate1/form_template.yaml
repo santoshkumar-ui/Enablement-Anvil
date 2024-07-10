@@ -16,7 +16,7 @@ components:
   data_bindings:
   - {property: text, code: 'self.item[''email_user'']', writeback: true}
 - type: TextBox
-  properties: {role: null, bold: false, align: left, placeholder: '', spacing_above: small, background: '', type: number, underline: false, font: '', hide_text: false, foreground: '', spacing_below: small, visible: true, border: '', italic: false, enabled: true, font_size: null, tooltip: '', text: ''}
+  properties: {role: null, bold: false, align: left, placeholder: '', spacing_above: small, background: '', type: text, underline: false, font: '', hide_text: false, foreground: '', spacing_below: small, visible: true, border: '', italic: false, enabled: true, font_size: null, tooltip: '', text: ''}
   name: text_box_3
   layout_properties: {grid_position: 'CZPCZJ,VVNLSO'}
   event_bindings: {pressed_enter: text_box_3_pressed_enter}
