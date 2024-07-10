@@ -18,3 +18,4 @@ from anvil.tables import app_tables
 # @anvil.server.callable
 # def get_admin_users():
 #     return app_tables.admin.search(usertype='admin')
+
