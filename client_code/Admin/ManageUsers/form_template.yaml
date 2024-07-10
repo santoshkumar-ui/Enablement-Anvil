@@ -37,6 +37,7 @@ components:
         properties: {text: manage employee}
         type: Button
         layout_properties: {grid_position: 'EGNMNN,PZKKSD'}
+        event_bindings: {click: button_2_click}
   - type: FlowPanel
     properties: {}
     name: navbar_links_copy
