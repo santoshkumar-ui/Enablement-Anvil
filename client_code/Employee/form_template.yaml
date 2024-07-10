@@ -18,7 +18,7 @@ components:
       name: image_1
       layout_properties: {grid_position: 'LWAUZQ,EECGXB'}
   - type: Button
-    properties: {role: primary-color, bold: false, align: center, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: '', spacing_below: small, visible: true, border: '', italic: false, enabled: true, font_size: null, tooltip: '', text: add employee}
+    properties: {role: primary-color, bold: false, align: center, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: '', spacing_below: small, visible: true, border: '', italic: false, enabled: true, font_size: null, tooltip: '', text: view content}
     name: button_1
     layout_properties: {grid_position: 'LQZEZF,OTDJAO'}
 - type: FlowPanel
