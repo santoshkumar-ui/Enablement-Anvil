@@ -50,6 +50,12 @@ class addadmin(addadminTemplate):
     try:
       anvil.server.call('submit', full_name=full_name, email_user = email_user, user_phonenumber=  user_phonenumber,user_password = user_password,reenter_password = reenter_password)
       Notification("Your Admin details have been saved!!!").show()
+      # Clear form fields
+      self.text_box_name.text = ""
+      self.text_box_email.text = ""
+      self.text_box_phone_number.text = ""
+      self.text_box_password.text = ""
+      self.text_box_reenter_password.text = ""
     except Exception as e:
       Notification(f"An error occurred: {str(e)}").show()
       

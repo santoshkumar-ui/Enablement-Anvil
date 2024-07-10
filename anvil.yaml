@@ -11,5 +11,4 @@ services:
 - source: /runtime/services/tables.yml
   client_config: {}
   server_config: {}
-db_schema: {}
 startup: {type: form, module: Admin.ManageUsers}
