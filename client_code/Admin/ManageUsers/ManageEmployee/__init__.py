@@ -1,8 +1,6 @@
 from ._anvil_designer import ManageEmployeeTemplate
 from anvil import *
-import anvil.tables as tables
-import anvil.tables.query as q
-from anvil.tables import app_tables
+import anvil.server
 
 
 class ManageEmployee(ManageEmployeeTemplate):
@@ -11,3 +9,9 @@ class ManageEmployee(ManageEmployeeTemplate):
     self.init_components(**properties)
 
     # Any code you write here will run before the form opens.
+
+  def add_employee_button_click(self, **event_args):
+    open_form('Admin.ManageUsers.ManageEmployee.addemployee')
+
+  def link_1_click(self, **event_args):
+   open_form('Admin.ManageUsers')

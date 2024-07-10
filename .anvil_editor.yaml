@@ -1,10 +1,14 @@
 unique_ids:
   forms:
+    Admin.ManageUsers.ManageAdmin.editadmin.ItemTemplate5: '1720427613753670318983040.0284'
     Admin.ManageUsers.ManageEmployee.editemployee: '1720155198606788795906638.4767'
+    Admin.ManageUsers.ManageAdmin.editadmin.ItemTemplate2: '1720175730664165059959471.0562'
     Login: '172015335491557237405236.147064'
+    Admin.ManageUsers.ManageAdmin.addadmin.ItemTemplate1: '1720174116231658363051028.3478'
+    Admin.ManageUsers.ManageAdmin.editadmin.ItemTemplate4: '1720427539296731598050863.6599'
     Admin.ManageUsers.ManageAdmin: '1720154163452637475583634.4679'
-    Admin.ManageUsers.ManageEmployee.editemployee.ItemTemplate1: '1720175437947371367048062.8197'
     Admin.ManageUsers: '1720154106346487750126870.9952'
+    Admin.ManageUsers.ManageAdmin.editadmin.Form1: '1720425768959388573468832.4738'
     Employee: '1720154093639269058991111.88724'
     Admin.ManageUsers.ManageEmployee.addemployee: '1720155206964365020738898.7499'
     Admin.ManageUsers.ManageAdmin.addadmin: '1720155191596218886363139.87476'
@@ -13,8 +17,11 @@ unique_ids:
     Admin.ManageUsers.ManageAdmin.editadmin: '1720155177033823830565921.5624'
     Admin: QLMLQVDHMWBVWY6WYDK5VAINCLUKSLWC
   modules: {}
-  server_modules: {}
+  server_modules:
+    ServerModule1: '1720421387981194628728486.7918'
   assets:
+    businessman_edit.png: '1720494775961581649579917.7534'
+    employee-icon-png-53.png: '1720494763112191996980280.39557'
     standard-page.html: 4UMB2CD4YPF7QMYKBFK4W2EJP2JGQNE7
     theme.css: 463IF6OUD7L3AFUDID4IRH4JZDZ6WLUK
   scripts: {}
